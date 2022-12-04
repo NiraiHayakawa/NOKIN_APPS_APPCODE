@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18F510A0B980FF91EF5267B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F51065045C59AE3E6ABC8C /* ContentView.swift */; };
-		18F511C399A13A6DC8B42F68 /* NOKIN_APPS_APPCODEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F513853D04C22EC2CAC48A /* NOKIN_APPS_APPCODEApp.swift */; };
-		18F511D200D3FAD7B834ECCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F51F3C6416D4BFD67FCDE8 /* Preview Assets.xcassets */; };
-		18F515AF02F9E1A5DCF49DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F514CF12227AC338A20079 /* Assets.xcassets */; };
+		18F5127CA3243F7C41D046BF /* NOKIN_APPS_APPCODEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F51F06509A731A89D1F6C5 /* NOKIN_APPS_APPCODEApp.swift */; };
+		18F515DD4760BF9F7E039D44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F512DC5E808196074A380C /* Assets.xcassets */; };
+		18F5165352DCBAC3ECDD6372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F5185524809092589D4BD0 /* ContentView.swift */; };
+		18F51D505AFE2C532C23FC65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F51F459EAA3F315DD74C52 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18F51065045C59AE3E6ABC8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		18F513853D04C22EC2CAC48A /* NOKIN_APPS_APPCODEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOKIN_APPS_APPCODEApp.swift; sourceTree = "<group>"; };
-		18F514CF12227AC338A20079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18F51D99DBACBE8D16581935 /* NOKIN_APPS_APPCODE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOKIN_APPS_APPCODE.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18F51F3C6416D4BFD67FCDE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18F512DC5E808196074A380C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F515F0BF225E5341695966 /* NOKIN_APPS_APPCODE.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = NOKIN_APPS_APPCODE.app; path = "../../../../Library/Caches/JetBrains/AppCode2022.2/DerivedData/NOKIN_APPS_APPCODE-gtqcrtnigqkrdudlqmkoadlqrkdw/Build/Products/Debug-iphonesimulator/NOKIN_APPS_APPCODE.app"; sourceTree = "<group>"; };
+		18F5185524809092589D4BD0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18F51F06509A731A89D1F6C5 /* NOKIN_APPS_APPCODEApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NOKIN_APPS_APPCODEApp.swift; sourceTree = "<group>"; };
+		18F51F459EAA3F315DD74C52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,36 +35,45 @@
 		18F51149A95CE46F1246E629 /* NOKIN_APPS_APPCODE */ = {
 			isa = PBXGroup;
 			children = (
-				18F514CF12227AC338A20079 /* Assets.xcassets */,
-				18F51BB740CFC05F8D0C0B19 /* Preview Content */,
-				18F513853D04C22EC2CAC48A /* NOKIN_APPS_APPCODEApp.swift */,
-				18F51065045C59AE3E6ABC8C /* ContentView.swift */,
+				18F51EC0D2633576E401EE33 /* Calculater made by nokin */,
 			);
 			path = NOKIN_APPS_APPCODE;
 			sourceTree = "<group>";
 		};
-		18F51162642EEB606015DB5A /* Products */ = {
+		18F5170FCA5187278C54A9FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18F51D99DBACBE8D16581935 /* NOKIN_APPS_APPCODE.app */,
+				18F515F0BF225E5341695966 /* NOKIN_APPS_APPCODE.app */,
 			);
 			name = Products;
+			path = ../../../NOKIN_APPS_APPCODE;
 			sourceTree = "<group>";
 		};
 		18F517D799AB165E51839483 = {
 			isa = PBXGroup;
 			children = (
-				18F51162642EEB606015DB5A /* Products */,
 				18F51149A95CE46F1246E629 /* NOKIN_APPS_APPCODE */,
 			);
 			sourceTree = "<group>";
 		};
-		18F51BB740CFC05F8D0C0B19 /* Preview Content */ = {
+		18F5190A7AD61E8A093C27AB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				18F51F3C6416D4BFD67FCDE8 /* Preview Assets.xcassets */,
+				18F51F459EAA3F315DD74C52 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18F51EC0D2633576E401EE33 /* Calculater made by nokin */ = {
+			isa = PBXGroup;
+			children = (
+				18F5190A7AD61E8A093C27AB /* Preview Content */,
+				18F512DC5E808196074A380C /* Assets.xcassets */,
+				18F5185524809092589D4BD0 /* ContentView.swift */,
+				18F51F06509A731A89D1F6C5 /* NOKIN_APPS_APPCODEApp.swift */,
+				18F5170FCA5187278C54A9FE /* Products */,
+			);
+			path = "Calculater made by nokin";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +93,6 @@
 			);
 			name = NOKIN_APPS_APPCODE;
 			productName = NOKIN_APPS_APPCODE;
-			productReference = 18F51D99DBACBE8D16581935 /* NOKIN_APPS_APPCODE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +108,6 @@
 				en,
 			);
 			mainGroup = 18F517D799AB165E51839483;
-			productRefGroup = 18F51162642EEB606015DB5A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -114,8 +121,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F515AF02F9E1A5DCF49DB1 /* Assets.xcassets in Resources */,
-				18F511D200D3FAD7B834ECCB /* Preview Assets.xcassets in Resources */,
+				18F51D505AFE2C532C23FC65 /* Preview Assets.xcassets in Resources */,
+				18F515DD4760BF9F7E039D44 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,8 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F511C399A13A6DC8B42F68 /* NOKIN_APPS_APPCODEApp.swift in Sources */,
-				18F510A0B980FF91EF5267B5 /* ContentView.swift in Sources */,
+				18F5165352DCBAC3ECDD6372 /* ContentView.swift in Sources */,
+				18F5127CA3243F7C41D046BF /* NOKIN_APPS_APPCODEApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
